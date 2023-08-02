@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+}
+body{
+    background-color: #E4D8E9;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #D2AAEA;
+    width: 100%;
+    height: 78px;
+    .name{
+        font-weight: bold;
+        font-size: 32px;
+        color:#FFE8E8;
+        margin-left: 156px;
+    }
+    .mail{
+        width: 50px;
+        height: 50px;
+        margin-left: 500px;
+    }
+}
+main{
+    flex: 1 1 auto;
+        .block{
+            width: 374px;
+            height: 467px;
+            background-color: #D2AAEA;
+            border:7px solid #fff;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 70px;
+            h1{
+                color:#FFF2F2;
+                margin-top: 21px;
+            }
+        .name_block{
+            font-size: 22px;
+            font-weight: bolder;
+            color: #fff;
+            margin-top: 26px;
+        }
+        .text{
+        font-size: 22px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 33px
+        }
+        .telegram{
+            transform: translateY(-30%);
+            margin-left: 12px;
+        }
+        .avito{
+            margin-left: 10px;
+        }
+        .tt{
+            transform: translateY(-20%);
+            margin-right: 30px;
+        }
+    }
+        .img1{
+            margin-right: 500px;
+        }
+    }
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #D2AAEA;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top:600px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elephant{
+     visibility: visible;
+    width: 1px;
+    height: 1px;
+}
+@media (max-width:992px){
+    header{
+        width: 100vh;
+        .mail{
+            margin-left:450px;
+        }
+    }
+    .elephant{
+        visibility: visible;
+        width:60%;
+        height: 500px;
+        transform: translateY(110%);
+        margin-left: 200px;
+    }
+}
